@@ -10,7 +10,7 @@
   - [Prerequisites](#prerequisites)
   - [Run tests](#run-tests)
   - [Deployment](#triangular_flag_on_post-deployment)
-- [👥 Authors](#amen-and-Isma)
+- [👥 Authors](#amen-musingarimi)
 - [🔭 Future Features](#the other pages)
 - [🤝 Contributing](#contributing)
 - [⭐️ Show your support](#support)
@@ -61,7 +61,7 @@
 
 ## 🚀 Live Demo <a name="live-demo"></a>
 
-- [Live Demo Link](https://ismailmunyentwari9.github.io/books/)
+- [Live Demo Link](https://amen-musingarimi.github.io/awesomeBooks-ES6/)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -73,7 +73,7 @@ To get a local copy up and running, follow these steps.
 
 ### Setup
 
-Clone this repository to your desired folder using the following command; git clone https://github.com/ismailmunyentwari9/books
+Clone this repository to your desired folder using the following command; git clone https://github.com/Amen-Musingarimi/awesomeBooks-ES6
 
 ### Run tests
 
@@ -94,20 +94,6 @@ You can deploy this project using Github pages.
 - GitHub: [@Amen-Musingarimi](https://github.com/Amen-Musingarimi)
 - LinkedIn: [@atmusingarimi](https://www.linkedin.com/in/atmusingarimi/)
 
-👤 **Ismail Munyentwari**
-
-- GitHub: [@Ismail-Munyentwari](https://github.com/ismailmunyentwari9)
-- LinkedIn: [@Ismail-Munyentwari](https://www.linkedin.com/in/munyentwari-ismail-754718191/)
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-<!-- FUTURE FEATURES -->
-
-## 🔭 Future Features <a name="future-features"></a>
-
-- [ ] **[navigation_bar]**
-- [ ] **[contact_page]**
-
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- CONTRIBUTING -->
@@ -116,7 +102,7 @@ You can deploy this project using Github pages.
 
 Contributions, issues, and feature requests are welcome!
 
-Feel free to check the [issues page](https://github.com/ismailmunyentwari9/books/issues).
+Feel free to check the [issues page](https://github.com/Amen-Musingarimi/awesomeBooks-ES6/issues).
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
