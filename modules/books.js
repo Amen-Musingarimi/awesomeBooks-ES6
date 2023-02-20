@@ -5,28 +5,28 @@ const book = () => {
   const author = document.querySelector('#author');
 
   class AwesomeLibrary {
-    static cleanInputs() {
+    static cleanInputs = () => {
       title.value = '';
       author.value = '';
-    }
+    };
 
-    static addBook(title, author) {
+    static addBook = (title, author) => {
       const books = JSON.parse(localStorage.getItem('awesomeBooks')) || [];
       const id = books.length + 1;
       const book = { title, author, id };
       books.push(book);
       localStorage.setItem('awesomeBooks', JSON.stringify(books));
       this.displaydata(books);
-    }
+    };
 
-    static removeBook(id) {
+    static removeBook = (id) => {
       const books = JSON.parse(localStorage.getItem('awesomeBooks')) || [];
       const updatedBooks = books.filter((book) => book.id !== id);
       localStorage.setItem('awesomeBooks', JSON.stringify(updatedBooks));
       this.displaydata(updatedBooks);
-    }
+    };
 
-    static displaydata(books) {
+    static displaydata = (books) => {
       const uniqueBooks = books.filter(
         (book, index, arr) => arr.findIndex((t) => t.id === book.id) === index,
       );
@@ -39,22 +39,22 @@ const book = () => {
         )
         .join('');
       container.innerHTML = datas;
-    }
+    };
 
-    static remove() {
+    static remove = () => {
       container.addEventListener('click', (e) => {
         if (e.target.className.includes('clean')) {
           const dataId = e.target.dataset.id;
           this.removeBook(parseInt(dataId, 10));
         }
       });
-    }
+    };
 
-    static initialize() {
+    static initialize = () => {
       const books = JSON.parse(localStorage.getItem('awesomeBooks')) || [];
       this.displaydata(books);
       this.remove();
-    }
+    };
   }
 
   AwesomeLibrary.initialize();
